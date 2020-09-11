@@ -1,8 +1,7 @@
-def my_collect(array)
+def my_collect(languages)
   i = 0
   new_array = []
-  upcase(languages){ |lang| lang.upcase }
-  while i < array.length
+  while i < languages.length
     new_array << yeild(array[i])
     i += 1
   end
